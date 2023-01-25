@@ -187,73 +187,181 @@
                 <img class="avatar-sm" width="48px" src="assets/avatar.png" alt="Avatar">
             </div>
         </div>
-        <div class="sub-side-panel active" id="sub-side-panel">
+        <div class="sub-side-panel" id="sub-side-panel">
             <h2>Settings</h2>
             <div class="sub-side-nav">
-                <div class="side-panel-btn">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path
-                            d="M4 21L4 4M4 13H11.4C11.9601 13 12.2401 13 12.454 12.891C12.6422 12.7951 12.7951 12.6422 12.891 12.454C13 12.2401 13 11.9601 13 11.4V4.6C13 4.03995 13 3.75992 12.891 3.54601C12.7951 3.35785 12.6422 3.20487 12.454 3.10899C12.2401 3 11.9601 3 11.4 3H5.6C5.03995 3 4.75992 3 4.54601 3.10899C4.35785 3.20487 4.20487 3.35785 4.10899 3.54601C4 3.75992 4 4.03995 4 4.6V13ZM13 5H19.4C19.9601 5 20.2401 5 20.454 5.10899C20.6422 5.20487 20.7951 5.35785 20.891 5.54601C21 5.75992 21 6.03995 21 6.6V13.4C21 13.9601 21 14.2401 20.891 14.454C20.7951 14.6422 20.6422 14.7951 20.454 14.891C20.2401 15 19.9601 15 19.4 15H14.6C14.0399 15 13.7599 15 13.546 14.891C13.3578 14.7951 13.2049 14.6422 13.109 14.454C13 14.2401 13 13.9601 13 13.4V5Z"
-                            stroke="#667085" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                    </svg>
-                    <h2>My Details</h2>
+                <div class="sub-side-nav-list">
+                    <div class="side-panel-btn">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M4 21L4 4M4 13H11.4C11.9601 13 12.2401 13 12.454 12.891C12.6422 12.7951 12.7951 12.6422 12.891 12.454C13 12.2401 13 11.9601 13 11.4V4.6C13 4.03995 13 3.75992 12.891 3.54601C12.7951 3.35785 12.6422 3.20487 12.454 3.10899C12.2401 3 11.9601 3 11.4 3H5.6C5.03995 3 4.75992 3 4.54601 3.10899C4.35785 3.20487 4.20487 3.35785 4.10899 3.54601C4 3.75992 4 4.03995 4 4.6V13ZM13 5H19.4C19.9601 5 20.2401 5 20.454 5.10899C20.6422 5.20487 20.7951 5.35785 20.891 5.54601C21 5.75992 21 6.03995 21 6.6V13.4C21 13.9601 21 14.2401 20.891 14.454C20.7951 14.6422 20.6422 14.7951 20.454 14.891C20.2401 15 19.9601 15 19.4 15H14.6C14.0399 15 13.7599 15 13.546 14.891C13.3578 14.7951 13.2049 14.6422 13.109 14.454C13 14.2401 13 13.9601 13 13.4V5Z"
+                                stroke="#667085" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                        <h2>My Details</h2>
+                    </div>
+                    <div class="side-panel-btn">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M4.00002 21.8174C4.6026 22 5.41649 22 6.8 22H17.2C18.5835 22 19.3974 22 20 21.8174M4.00002 21.8174C3.87082 21.7783 3.75133 21.7308 3.63803 21.673C3.07354 21.3854 2.6146 20.9265 2.32698 20.362C2 19.7202 2 18.8802 2 17.2V6.8C2 5.11984 2 4.27976 2.32698 3.63803C2.6146 3.07354 3.07354 2.6146 3.63803 2.32698C4.27976 2 5.11984 2 6.8 2H17.2C18.8802 2 19.7202 2 20.362 2.32698C20.9265 2.6146 21.3854 3.07354 21.673 3.63803C22 4.27976 22 5.11984 22 6.8V17.2C22 18.8802 22 19.7202 21.673 20.362C21.3854 20.9265 20.9265 21.3854 20.362 21.673C20.2487 21.7308 20.1292 21.7783 20 21.8174M4.00002 21.8174C4.00035 21.0081 4.00521 20.5799 4.07686 20.2196C4.39249 18.6329 5.63288 17.3925 7.21964 17.0769C7.60603 17 8.07069 17 9 17H15C15.9293 17 16.394 17 16.7804 17.0769C18.3671 17.3925 19.6075 18.6329 19.9231 20.2196C19.9948 20.5799 19.9996 21.0081 20 21.8174M16 9.5C16 11.7091 14.2091 13.5 12 13.5C9.79086 13.5 8 11.7091 8 9.5C8 7.29086 9.79086 5.5 12 5.5C14.2091 5.5 16 7.29086 16 9.5Z"
+                                stroke="#667085" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                        <h2>Profile</h2>
+                        <h4 class="badge">10</h4>
+                    </div>
+                    <div class="side-panel-btn">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M20 20V13M12 20V10M4 20L4 16M13.4067 5.0275L18.5751 6.96567M10.7988 5.40092L5.20023 9.59983M21.0607 6.43934C21.6464 7.02513 21.6464 7.97487 21.0607 8.56066C20.4749 9.14645 19.5251 9.14645 18.9393 8.56066C18.3536 7.97487 18.3536 7.02513 18.9393 6.43934C19.5251 5.85355 20.4749 5.85355 21.0607 6.43934ZM5.06066 9.43934C5.64645 10.0251 5.64645 10.9749 5.06066 11.5607C4.47487 12.1464 3.52513 12.1464 2.93934 11.5607C2.35355 10.9749 2.35355 10.0251 2.93934 9.43934C3.52513 8.85355 4.47487 8.85355 5.06066 9.43934ZM13.0607 3.43934C13.6464 4.02513 13.6464 4.97487 13.0607 5.56066C12.4749 6.14645 11.5251 6.14645 10.9393 5.56066C10.3536 4.97487 10.3536 4.02513 10.9393 3.43934C11.5251 2.85355 12.4749 2.85355 13.0607 3.43934Z"
+                                stroke="#667085" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                        <h2>Password</h2>
+                    </div>
+                    <div class="side-panel-btn">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M11.2826 3.45332C11.5131 2.98638 11.6283 2.75291 11.7848 2.67831C11.9209 2.61341 12.0791 2.61341 12.2152 2.67831C12.3716 2.75291 12.4869 2.98638 12.7174 3.45332L14.904 7.88328C14.9721 8.02113 15.0061 8.09006 15.0558 8.14358C15.0998 8.19096 15.1526 8.22935 15.2113 8.25662C15.2775 8.28742 15.3536 8.29854 15.5057 8.32077L20.397 9.03571C20.912 9.11099 21.1696 9.14863 21.2888 9.27444C21.3924 9.38389 21.4412 9.5343 21.4215 9.68377C21.3988 9.85558 21.2123 10.0372 20.8394 10.4004L17.3014 13.8464C17.1911 13.9538 17.136 14.0076 17.1004 14.0715C17.0689 14.128 17.0487 14.1902 17.0409 14.2545C17.0321 14.3271 17.0451 14.403 17.0711 14.5547L17.9059 19.4221C17.994 19.9355 18.038 20.1922 17.9553 20.3445C17.8833 20.477 17.7553 20.57 17.607 20.5975C17.4366 20.6291 17.2061 20.5078 16.7451 20.2654L12.3723 17.9658C12.2361 17.8942 12.168 17.8584 12.0962 17.8443C12.0327 17.8318 11.9673 17.8318 11.9038 17.8443C11.832 17.8584 11.7639 17.8942 11.6276 17.9658L7.25489 20.2654C6.79388 20.5078 6.56338 20.6291 6.39294 20.5975C6.24465 20.57 6.11669 20.477 6.04471 20.3445C5.96197 20.1922 6.00599 19.9355 6.09404 19.4221L6.92886 14.5547C6.95488 14.403 6.96789 14.3271 6.95909 14.2545C6.95129 14.1902 6.93108 14.128 6.89958 14.0715C6.86399 14.0076 6.80885 13.9538 6.69855 13.8464L3.16053 10.4004C2.78763 10.0372 2.60118 9.85558 2.5785 9.68377C2.55876 9.5343 2.60752 9.38389 2.71122 9.27444C2.8304 9.14863 3.08794 9.11099 3.60301 9.03571L8.49428 8.32077C8.64639 8.29854 8.72245 8.28742 8.78869 8.25662C8.84733 8.22935 8.90013 8.19096 8.94415 8.14358C8.99388 8.09006 9.0279 8.02113 9.09594 7.88328L11.2826 3.45332Z"
+                                stroke="#667085" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                        <h2>Team</h2>
+                    </div>
+                    <div class="side-panel-btn">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M22.7 11.5L20.7005 13.5L18.7 11.5M20.9451 13C20.9814 12.6717 21 12.338 21 12C21 7.02944 16.9706 3 12 3C7.02944 3 3 7.02944 3 12C3 16.9706 7.02944 21 12 21C14.8273 21 17.35 19.6963 19 17.6573M12 7V12L15 14"
+                                stroke="#667085" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                        <h2>Billing</h2>
+                    </div>
+                    <div class="side-panel-btn">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M11 4H7.8C6.11984 4 5.27976 4 4.63803 4.32698C4.07354 4.6146 3.6146 5.07354 3.32698 5.63803C3 6.27976 3 7.11984 3 8.8V16.2C3 17.8802 3 18.7202 3.32698 19.362C3.6146 19.9265 4.07354 20.3854 4.63803 20.673C5.27976 21 6.11984 21 7.8 21H15.2C16.8802 21 17.7202 21 18.362 20.673C18.9265 20.3854 19.3854 19.9265 19.673 19.362C20 18.7202 20 17.8802 20 16.2V13M20.1213 3.87868C21.2929 5.05025 21.2929 6.94975 20.1213 8.12132C18.9497 9.29289 17.0503 9.29289 15.8787 8.12132C14.7071 6.94975 14.7071 5.05025 15.8787 3.87868C17.0503 2.70711 18.9497 2.70711 20.1213 3.87868Z"
+                                stroke="#667085" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                        <h2>Notifications</h2>
+                    </div>
+                    <div class="side-panel-btn">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M15.0505 9H5.5C4.11929 9 3 7.88071 3 6.5C3 5.11929 4.11929 4 5.5 4H15.0505M8.94949 20H18.5C19.8807 20 21 18.8807 21 17.5C21 16.1193 19.8807 15 18.5 15H8.94949M3 17.5C3 19.433 4.567 21 6.5 21C8.433 21 10 19.433 10 17.5C10 15.567 8.433 14 6.5 14C4.567 14 3 15.567 3 17.5ZM21 6.5C21 8.433 19.433 10 17.5 10C15.567 10 14 8.433 14 6.5C14 4.567 15.567 3 17.5 3C19.433 3 21 4.567 21 6.5Z"
+                                stroke="#667085" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                        </svg>
+                        <h2>Integrations</h2>
+                    </div>
                 </div>
-                <div class="side-panel-btn">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path
-                            d="M4.00002 21.8174C4.6026 22 5.41649 22 6.8 22H17.2C18.5835 22 19.3974 22 20 21.8174M4.00002 21.8174C3.87082 21.7783 3.75133 21.7308 3.63803 21.673C3.07354 21.3854 2.6146 20.9265 2.32698 20.362C2 19.7202 2 18.8802 2 17.2V6.8C2 5.11984 2 4.27976 2.32698 3.63803C2.6146 3.07354 3.07354 2.6146 3.63803 2.32698C4.27976 2 5.11984 2 6.8 2H17.2C18.8802 2 19.7202 2 20.362 2.32698C20.9265 2.6146 21.3854 3.07354 21.673 3.63803C22 4.27976 22 5.11984 22 6.8V17.2C22 18.8802 22 19.7202 21.673 20.362C21.3854 20.9265 20.9265 21.3854 20.362 21.673C20.2487 21.7308 20.1292 21.7783 20 21.8174M4.00002 21.8174C4.00035 21.0081 4.00521 20.5799 4.07686 20.2196C4.39249 18.6329 5.63288 17.3925 7.21964 17.0769C7.60603 17 8.07069 17 9 17H15C15.9293 17 16.394 17 16.7804 17.0769C18.3671 17.3925 19.6075 18.6329 19.9231 20.2196C19.9948 20.5799 19.9996 21.0081 20 21.8174M16 9.5C16 11.7091 14.2091 13.5 12 13.5C9.79086 13.5 8 11.7091 8 9.5C8 7.29086 9.79086 5.5 12 5.5C14.2091 5.5 16 7.29086 16 9.5Z"
-                            stroke="#667085" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                    </svg>
-                    <h2>Profile</h2>
-                    <h4 class="badge">10</h4>
+
+                <div class="footer-logout-sec">
+                    <div>
+                        <h3 class="sec-heading">Olivia Rhye</h2>
+                            <h3 class="sec-subhead">olivia@untitledui.com</h2>
+                    </div>
+
                 </div>
-                <div class="side-panel-btn">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path
-                            d="M20 20V13M12 20V10M4 20L4 16M13.4067 5.0275L18.5751 6.96567M10.7988 5.40092L5.20023 9.59983M21.0607 6.43934C21.6464 7.02513 21.6464 7.97487 21.0607 8.56066C20.4749 9.14645 19.5251 9.14645 18.9393 8.56066C18.3536 7.97487 18.3536 7.02513 18.9393 6.43934C19.5251 5.85355 20.4749 5.85355 21.0607 6.43934ZM5.06066 9.43934C5.64645 10.0251 5.64645 10.9749 5.06066 11.5607C4.47487 12.1464 3.52513 12.1464 2.93934 11.5607C2.35355 10.9749 2.35355 10.0251 2.93934 9.43934C3.52513 8.85355 4.47487 8.85355 5.06066 9.43934ZM13.0607 3.43934C13.6464 4.02513 13.6464 4.97487 13.0607 5.56066C12.4749 6.14645 11.5251 6.14645 10.9393 5.56066C10.3536 4.97487 10.3536 4.02513 10.9393 3.43934C11.5251 2.85355 12.4749 2.85355 13.0607 3.43934Z"
-                            stroke="#667085" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            </div>
+        </div>
+
+
+        <div class="m-nav">
+            <div class="m-nav-item">
+                <div class="m-logo">
+                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_755_6911)">
+                            <rect width="32" height="32" rx="8" fill="white" />
+                            <rect width="32" height="32" rx="8" fill="url(#paint0_linear_755_6911)" />
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M16 2.03884C8.28948 2.03884 2.03885 8.28946 2.03885 16C2.03885 23.7105 8.28948 29.9612 16 29.9612C23.7106 29.9612 29.9612 23.7105 29.9612 16C29.9612 8.28946 23.7106 2.03884 16 2.03884ZM1.96118 16C1.96118 8.24657 8.24658 1.96117 16 1.96117C23.7535 1.96117 30.0389 8.24657 30.0389 16C30.0389 23.7534 23.7535 30.0388 16 30.0388C8.24658 30.0388 1.96118 23.7534 1.96118 16Z"
+                                fill="#D0D5DD" />
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M16 12.0779C13.8338 12.0779 12.0777 13.834 12.0777 16.0002C12.0777 18.1665 13.8338 19.9226 16 19.9226C18.1662 19.9226 19.9223 18.1665 19.9223 16.0002C19.9223 13.834 18.1662 12.0779 16 12.0779ZM12 16.0002C12 13.7911 13.7909 12.0002 16 12.0002C18.2091 12.0002 20 13.7911 20 16.0002C20 18.2094 18.2091 20.0002 16 20.0002C13.7909 20.0002 12 18.2094 12 16.0002Z"
+                                fill="#D0D5DD" />
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M16 13.3201C14.52 13.3201 13.3203 14.5198 13.3203 15.9997C13.3203 17.4796 14.52 18.6793 16 18.6793C17.4799 18.6793 18.6796 17.4796 18.6796 15.9997C18.6796 14.5198 17.4799 13.3201 16 13.3201ZM13.2427 15.9997C13.2427 14.4769 14.4772 13.2424 16 13.2424C17.5228 13.2424 18.7572 14.4769 18.7572 15.9997C18.7572 17.5225 17.5228 18.757 16 18.757C14.4772 18.757 13.2427 17.5225 13.2427 15.9997Z"
+                                fill="#D0D5DD" />
+                            <path d="M15.9612 0H16.0389V32H15.9612V0Z" fill="#D0D5DD" />
+                            <path d="M32 15.9609L32 16.0386L-3.39506e-09 16.0386L0 15.9609L32 15.9609Z"
+                                fill="#D0D5DD" />
+                            <path d="M26.6019 0H26.6796V32H26.6019V0Z" fill="#D0D5DD" />
+                            <path d="M10.6407 0H10.7184V32H10.6407V0Z" fill="#D0D5DD" />
+                            <path d="M21.2815 0H21.3592V32H21.2815V0Z" fill="#D0D5DD" />
+                            <path d="M5.32031 0H5.39798V32H5.32031V0Z" fill="#D0D5DD" />
+                            <path d="M32 26.6016L32 26.6792L-3.39506e-09 26.6792L0 26.6016L32 26.6016Z"
+                                fill="#D0D5DD" />
+                            <path d="M32 10.6406L32 10.7183L-3.39506e-09 10.7183L0 10.6406L32 10.6406Z"
+                                fill="#D0D5DD" />
+                            <path d="M32 21.2812L32 21.3589L-3.39506e-09 21.3589L0 21.2812L32 21.2812Z"
+                                fill="#D0D5DD" />
+                            <path d="M32 5.32031L32 5.39798L-3.39506e-09 5.39798L0 5.32031L32 5.32031Z"
+                                fill="#D0D5DD" />
+                            <g filter="url(#filter0_dd_755_6911)">
+                                <circle cx="16" cy="16" r="8" fill="url(#paint1_linear_755_6911)" />
+                            </g>
+                            <g filter="url(#filter1_b_755_6911)">
+                                <path
+                                    d="M0 16H32V19.2C32 23.6804 32 25.9206 31.1281 27.6319C30.3611 29.1372 29.1372 30.3611 27.6319 31.1281C25.9206 32 23.6804 32 19.2 32H12.8C8.31958 32 6.07937 32 4.36808 31.1281C2.86278 30.3611 1.63893 29.1372 0.871948 27.6319C0 25.9206 0 23.6804 0 19.2V16Z"
+                                    fill="white" fill-opacity="0.2" />
+                            </g>
+                        </g>
+                        <rect x="0.1" y="0.1" width="31.8" height="31.8" rx="7.9" stroke="#D0D5DD" stroke-width="0.2" />
+                        <defs>
+                            <filter id="filter0_dd_755_6911" x="5" y="6" width="22" height="22"
+                                filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                <feColorMatrix in="SourceAlpha" type="matrix"
+                                    values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                                <feOffset dy="1" />
+                                <feGaussianBlur stdDeviation="1" />
+                                <feColorMatrix type="matrix"
+                                    values="0 0 0 0 0.0627451 0 0 0 0 0.0941176 0 0 0 0 0.156863 0 0 0 0.06 0" />
+                                <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_755_6911" />
+                                <feColorMatrix in="SourceAlpha" type="matrix"
+                                    values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
+                                <feOffset dy="1" />
+                                <feGaussianBlur stdDeviation="1.5" />
+                                <feColorMatrix type="matrix"
+                                    values="0 0 0 0 0.0627451 0 0 0 0 0.0941176 0 0 0 0 0.156863 0 0 0 0.1 0" />
+                                <feBlend mode="normal" in2="effect1_dropShadow_755_6911"
+                                    result="effect2_dropShadow_755_6911" />
+                                <feBlend mode="normal" in="SourceGraphic" in2="effect2_dropShadow_755_6911"
+                                    result="shape" />
+                            </filter>
+                            <filter id="filter1_b_755_6911" x="-5" y="11" width="42" height="26"
+                                filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                                <feFlood flood-opacity="0" result="BackgroundImageFix" />
+                                <feGaussianBlur in="BackgroundImageFix" stdDeviation="2.5" />
+                                <feComposite in2="SourceAlpha" operator="in" result="effect1_backgroundBlur_755_6911" />
+                                <feBlend mode="normal" in="SourceGraphic" in2="effect1_backgroundBlur_755_6911"
+                                    result="shape" />
+                            </filter>
+                            <linearGradient id="paint0_linear_755_6911" x1="16" y1="0" x2="16" y2="32"
+                                gradientUnits="userSpaceOnUse">
+                                <stop stop-color="white" />
+                                <stop offset="1" stop-color="#D0D5DD" />
+                            </linearGradient>
+                            <linearGradient id="paint1_linear_755_6911" x1="12" y1="24" x2="20" y2="8"
+                                gradientUnits="userSpaceOnUse">
+                                <stop stop-color="#53389E" />
+                                <stop offset="1" stop-color="#6941C6" />
+                            </linearGradient>
+                            <clipPath id="clip0_755_6911">
+                                <rect width="32" height="32" rx="8" fill="white" />
+                            </clipPath>
+                        </defs>
                     </svg>
-                    <h2>Password</h2>
                 </div>
-                <div class="side-panel-btn">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path
-                            d="M11.2826 3.45332C11.5131 2.98638 11.6283 2.75291 11.7848 2.67831C11.9209 2.61341 12.0791 2.61341 12.2152 2.67831C12.3716 2.75291 12.4869 2.98638 12.7174 3.45332L14.904 7.88328C14.9721 8.02113 15.0061 8.09006 15.0558 8.14358C15.0998 8.19096 15.1526 8.22935 15.2113 8.25662C15.2775 8.28742 15.3536 8.29854 15.5057 8.32077L20.397 9.03571C20.912 9.11099 21.1696 9.14863 21.2888 9.27444C21.3924 9.38389 21.4412 9.5343 21.4215 9.68377C21.3988 9.85558 21.2123 10.0372 20.8394 10.4004L17.3014 13.8464C17.1911 13.9538 17.136 14.0076 17.1004 14.0715C17.0689 14.128 17.0487 14.1902 17.0409 14.2545C17.0321 14.3271 17.0451 14.403 17.0711 14.5547L17.9059 19.4221C17.994 19.9355 18.038 20.1922 17.9553 20.3445C17.8833 20.477 17.7553 20.57 17.607 20.5975C17.4366 20.6291 17.2061 20.5078 16.7451 20.2654L12.3723 17.9658C12.2361 17.8942 12.168 17.8584 12.0962 17.8443C12.0327 17.8318 11.9673 17.8318 11.9038 17.8443C11.832 17.8584 11.7639 17.8942 11.6276 17.9658L7.25489 20.2654C6.79388 20.5078 6.56338 20.6291 6.39294 20.5975C6.24465 20.57 6.11669 20.477 6.04471 20.3445C5.96197 20.1922 6.00599 19.9355 6.09404 19.4221L6.92886 14.5547C6.95488 14.403 6.96789 14.3271 6.95909 14.2545C6.95129 14.1902 6.93108 14.128 6.89958 14.0715C6.86399 14.0076 6.80885 13.9538 6.69855 13.8464L3.16053 10.4004C2.78763 10.0372 2.60118 9.85558 2.5785 9.68377C2.55876 9.5343 2.60752 9.38389 2.71122 9.27444C2.8304 9.14863 3.08794 9.11099 3.60301 9.03571L8.49428 8.32077C8.64639 8.29854 8.72245 8.28742 8.78869 8.25662C8.84733 8.22935 8.90013 8.19096 8.94415 8.14358C8.99388 8.09006 9.0279 8.02113 9.09594 7.88328L11.2826 3.45332Z"
-                            stroke="#667085" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                    </svg>
-                    <h2>Team</h2>
-                </div>
-                <div class="side-panel-btn">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path
-                            d="M22.7 11.5L20.7005 13.5L18.7 11.5M20.9451 13C20.9814 12.6717 21 12.338 21 12C21 7.02944 16.9706 3 12 3C7.02944 3 3 7.02944 3 12C3 16.9706 7.02944 21 12 21C14.8273 21 17.35 19.6963 19 17.6573M12 7V12L15 14"
-                            stroke="#667085" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                    </svg>
-                    <h2>Billing</h2>
-                </div>
-                <div class="side-panel-btn">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path
-                            d="M11 4H7.8C6.11984 4 5.27976 4 4.63803 4.32698C4.07354 4.6146 3.6146 5.07354 3.32698 5.63803C3 6.27976 3 7.11984 3 8.8V16.2C3 17.8802 3 18.7202 3.32698 19.362C3.6146 19.9265 4.07354 20.3854 4.63803 20.673C5.27976 21 6.11984 21 7.8 21H15.2C16.8802 21 17.7202 21 18.362 20.673C18.9265 20.3854 19.3854 19.9265 19.673 19.362C20 18.7202 20 17.8802 20 16.2V13M20.1213 3.87868C21.2929 5.05025 21.2929 6.94975 20.1213 8.12132C18.9497 9.29289 17.0503 9.29289 15.8787 8.12132C14.7071 6.94975 14.7071 5.05025 15.8787 3.87868C17.0503 2.70711 18.9497 2.70711 20.1213 3.87868Z"
-                            stroke="#667085" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                    </svg>
-                    <h2>Notifications</h2>
-                </div>
-                <div class="side-panel-btn">
-                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                        <path
-                            d="M15.0505 9H5.5C4.11929 9 3 7.88071 3 6.5C3 5.11929 4.11929 4 5.5 4H15.0505M8.94949 20H18.5C19.8807 20 21 18.8807 21 17.5C21 16.1193 19.8807 15 18.5 15H8.94949M3 17.5C3 19.433 4.567 21 6.5 21C8.433 21 10 19.433 10 17.5C10 15.567 8.433 14 6.5 14C4.567 14 3 15.567 3 17.5ZM21 6.5C21 8.433 19.433 10 17.5 10C15.567 10 14 8.433 14 6.5C14 4.567 15.567 3 17.5 3C19.433 3 21 4.567 21 6.5Z"
-                            stroke="#667085" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                    </svg>
-                    <h2>Integrations</h2>
-                </div>
+                <h1>Unititled UI</h1>
+            </div>
+            <div class="nav-item m-nav-toggle-btn">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M3 12H15M3 6H21M3 18H21" stroke="#667085" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round" />
+                </svg>
             </div>
         </div>
         <main>
             <img src="assets/main/Image.png" class="cover-photo" alt="cover image">
             <section class="sec-1 container">
                 <div class="avatar-container">
-                    <img class="avatar-xl" src="assets/avatar.png" alt="" width="160px">
+                    <img class="avatar-xl" src="assets/avatar.png" alt="avatar">
                     <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g clip-path="url(#clip0_755_9316)">
                             <path
@@ -272,7 +380,7 @@
                 </div>
                 <div class="sec-1-text">
                     <h1>Olivia Rhye</h1>
-                    <h3>olivia@untitledui.com</h3>
+                    <h2>olivia@untitledui.com</h2>
                 </div>
                 <div class="btn-grp">
                     <button class="btn btn-secondary">
@@ -289,11 +397,11 @@
                     </button>
                 </div>
             </section>
-            
+
             <section class="sec container">
                 <div class="sec-left">
                     <h3 class="sec-heading">Personal Info</h3>
-                    <h3>Update your photo and personal details.</h3>
+                    <h3 class="sec-subhead">Update your photo and personal details.</h3>
                 </div>
                 <div class="sec-right">
                     <div class="sec-right-container">
@@ -365,112 +473,150 @@
             <section class="sec container">
                 <div class="sec-left">
                     <h3 class="sec-heading">Profile</h3>
-                    <h3>Update your portfolio and bio.</h3>
+                    <h3 class="sec-subhead">Update your portfolio and bio.</h3>
                 </div>
                 <div class="sec-right">
                     <div class="sec-right-container">
                         <div class="available">
                             <label class="switch">
-                                <input type="checkbox">
+                                <input type="checkbox" checked>
                                 <span class="slider"></span>
-                              </label>
+                            </label>
                             <div>
                                 <h3 class="sec-heading">Available for projects</h3>
-                            <h3>I’m open and available for freelance work.</h3>
+                                <h3 class="sec-subhead">I’m open and available for freelance work.</h3>
                             </div>
                         </div>
                         <div class="input-box">
                             <h3>Username</h3>
                             <div class="input-text hard-label-input">
-                                <span class="hard-label">untitledui.com/</span>
-                                <input type="email" name="" value="olivia@untitledui.com" id="">
+                                <h2 class="hard-label">untitledui.com/</h2>
+                                <input type="text" name="" value="olivia@untitledui.com" id="">
                             </div>
                         </div>
                         <div class="input-box">
                             <h3>Website</h3>
                             <div class="input-text hard-label-input">
-                                <span class="hard-label">http://</span>
-                                <input type="email" name="" value="www.untitledui.com" id="">
+                                <h2 class="hard-label">http://</h2>
+                                <input type="text" name="" value="www.untitledui.com" id="">
                             </div>
                         </div>
                         <div class="input-box">
                             <h3>Description</h3>
-                            <textarea class="sec-desc" name="" id=""
+                            <textarea class="input-text sec-desc" name="" id=""
                                 rows="5">I'm a Product Designer based in Melbourne, Australia. I specialise in UX/UI design, brand strategy, and Webflow development.</textarea>
                             <h4>275 characters left</h4>
                         </div>
                         <div class="text-pref">
-                            <select name="" id="">
+                            <select class="input-text" name="" id="">
                                 <option value="Regular" selected>Regular</option>
                                 <option value="Medium">Medium</option>
                                 <option value="Bold">Bold</option>
                             </select>
-                            <div class="nav-item">
-                                <svg width="32" height="32" viewBox="0 0 32 32" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M19.6 14.79C20.57 14.12 21.25 13.02 21.25 12C21.25 9.74 19.5 8 17.25 8H11V22H18.04C20.13 22 21.75 20.3 21.75 18.21C21.75 16.69 20.89 15.39 19.6 14.79ZM14 10.5H17C17.83 10.5 18.5 11.17 18.5 12C18.5 12.83 17.83 13.5 17 13.5H14V10.5ZM17.5 19.5H14V16.5H17.5C18.33 16.5 19 17.17 19 18C19 18.83 18.33 19.5 17.5 19.5Z"
-                                        fill="#98A2B3" />
-                                </svg>
-                            </div>
-                            <div class="nav-item">
-                                <svg width="32" height="32" viewBox="0 0 32 32" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M14 8V11H16.21L12.79 19H10V22H18V19H15.79L19.21 11H22V8H14Z"
-                                        fill="#98A2B3" />
-                                </svg>
-                            </div>
-                            <div class="nav-item">
-                                <svg width="32" height="32" viewBox="0 0 32 32" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M7.9 16C7.9 14.29 9.29 12.9 11 12.9H15V11H11C8.24 11 6 13.24 6 16C6 18.76 8.24 21 11 21H15V19.1H11C9.29 19.1 7.9 17.71 7.9 16ZM12 17H20V15H12V17ZM21 11H17V12.9H21C22.71 12.9 24.1 14.29 24.1 16C24.1 17.71 22.71 19.1 21 19.1H17V21H21C23.76 21 26 18.76 26 16C26 13.24 23.76 11 21 11Z"
-                                        fill="#98A2B3" />
-                                </svg>
+                            <div class="text-pref-in">
+                                <div class="nav-item">
+                                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M19.6 14.79C20.57 14.12 21.25 13.02 21.25 12C21.25 9.74 19.5 8 17.25 8H11V22H18.04C20.13 22 21.75 20.3 21.75 18.21C21.75 16.69 20.89 15.39 19.6 14.79ZM14 10.5H17C17.83 10.5 18.5 11.17 18.5 12C18.5 12.83 17.83 13.5 17 13.5H14V10.5ZM17.5 19.5H14V16.5H17.5C18.33 16.5 19 17.17 19 18C19 18.83 18.33 19.5 17.5 19.5Z"
+                                            fill="#98A2B3" />
+                                    </svg>
+                                </div>
+                                <div class="nav-item">
+                                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M14 8V11H16.21L12.79 19H10V22H18V19H15.79L19.21 11H22V8H14Z"
+                                            fill="#98A2B3" />
+                                    </svg>
+                                </div>
+                                <div class="nav-item">
+                                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M7.9 16C7.9 14.29 9.29 12.9 11 12.9H15V11H11C8.24 11 6 13.24 6 16C6 18.76 8.24 21 11 21H15V19.1H11C9.29 19.1 7.9 17.71 7.9 16ZM12 17H20V15H12V17ZM21 11H17V12.9H21C22.71 12.9 24.1 14.29 24.1 16C24.1 17.71 22.71 19.1 21 19.1H17V21H21C23.76 21 26 18.76 26 16C26 13.24 23.76 11 21 11Z"
+                                            fill="#98A2B3" />
+                                    </svg>
 
-                            </div>
-                            <div class="nav-item"><svg width="32" height="32" viewBox="0 0 32 32" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M8.25 14.5C7.42 14.5 6.75 15.17 6.75 16C6.75 16.83 7.42 17.5 8.25 17.5C9.08 17.5 9.75 16.83 9.75 16C9.75 15.17 9.08 14.5 8.25 14.5ZM8.25 8.5C7.42 8.5 6.75 9.17 6.75 10C6.75 10.83 7.42 11.5 8.25 11.5C9.08 11.5 9.75 10.83 9.75 10C9.75 9.17 9.08 8.5 8.25 8.5ZM8.25 20.5C7.42 20.5 6.75 21.18 6.75 22C6.75 22.82 7.43 23.5 8.25 23.5C9.07 23.5 9.75 22.82 9.75 22C9.75 21.18 9.08 20.5 8.25 20.5ZM11.25 23H25.25V21H11.25V23ZM11.25 17H25.25V15H11.25V17ZM11.25 9V11H25.25V9H11.25Z"
-                                        fill="#98A2B3" />
-                                </svg>
-                            </div>
-                            <div class="nav-item">
-                                <svg width="32" height="32" viewBox="0 0 32 32" fill="none"
-                                    xmlns="http://www.w3.org/2000/svg">
-                                    <path
-                                        d="M7 21H9V21.5H8V22.5H9V23H7V24H10V20H7V21ZM8 12H9V8H7V9H8V12ZM7 15H8.8L7 17.1V18H10V17H8.2L10 14.9V14H7V15ZM12 9V11H26V9H12ZM12 23H26V21H12V23ZM12 17H26V15H12V17Z"
-                                        fill="#98A2B3" />
-                                </svg>
+                                </div>
+                                <div class="nav-item"><svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M8.25 14.5C7.42 14.5 6.75 15.17 6.75 16C6.75 16.83 7.42 17.5 8.25 17.5C9.08 17.5 9.75 16.83 9.75 16C9.75 15.17 9.08 14.5 8.25 14.5ZM8.25 8.5C7.42 8.5 6.75 9.17 6.75 10C6.75 10.83 7.42 11.5 8.25 11.5C9.08 11.5 9.75 10.83 9.75 10C9.75 9.17 9.08 8.5 8.25 8.5ZM8.25 20.5C7.42 20.5 6.75 21.18 6.75 22C6.75 22.82 7.43 23.5 8.25 23.5C9.07 23.5 9.75 22.82 9.75 22C9.75 21.18 9.08 20.5 8.25 20.5ZM11.25 23H25.25V21H11.25V23ZM11.25 17H25.25V15H11.25V17ZM11.25 9V11H25.25V9H11.25Z"
+                                            fill="#98A2B3" />
+                                    </svg>
+                                </div>
+                                <div class="nav-item">
+                                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <path
+                                            d="M7 21H9V21.5H8V22.5H9V23H7V24H10V20H7V21ZM8 12H9V8H7V9H8V12ZM7 15H8.8L7 17.1V18H10V17H8.2L10 14.9V14H7V15ZM12 9V11H26V9H12ZM12 23H26V21H12V23ZM12 17H26V15H12V17Z"
+                                            fill="#98A2B3" />
+                                    </svg>
+                                </div>
                             </div>
                         </div>
-                        <div class="input-box">
+                        <div class="input-box country-select">
                             <h3>Country</h3>
-                            <select class="country-select" name="" id="">
-                                <option value="India" selected>
-                                    India</option>
-                                <option value="Japan">
-                                    Japan</option>
-                                <option value="Finland">Finland</option>
-                            </select>
+                            <div class="input-text hard-label-input">
+                                <h2 class="hard-label">
+                                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
+                                        <g clip-path="url(#clip0_1046_3642)">
+                                            <path
+                                                d="M12 24C18.6274 24 24 18.6274 24 12C24 5.37258 18.6274 0 12 0C5.37258 0 0 5.37258 0 12C0 18.6274 5.37258 24 12 24Z"
+                                                fill="#F0F0F0" />
+                                            <path
+                                                d="M11.9997 -0.000976562C7.24218 -0.000976562 3.13143 2.7677 1.19043 6.78165H22.8089C20.868 2.7677 16.7572 -0.000976562 11.9997 -0.000976562Z"
+                                                fill="#FF9811" />
+                                            <path
+                                                d="M11.9997 23.9997C16.7572 23.9997 20.868 21.231 22.809 17.217H1.19043C3.13143 21.231 7.24218 23.9997 11.9997 23.9997Z"
+                                                fill="#6DA544" />
+                                            <path
+                                                d="M12.0001 16.1732C14.3052 16.1732 16.174 14.3045 16.174 11.9993C16.174 9.69415 14.3052 7.82544 12.0001 7.82544C9.69489 7.82544 7.82617 9.69415 7.82617 11.9993C7.82617 14.3045 9.69489 16.1732 12.0001 16.1732Z"
+                                                fill="#0052B4" />
+                                            <path
+                                                d="M12.0003 14.608C13.441 14.608 14.609 13.44 14.609 11.9993C14.609 10.5586 13.441 9.39062 12.0003 9.39062C10.5595 9.39062 9.3916 10.5586 9.3916 11.9993C9.3916 13.44 10.5595 14.608 12.0003 14.608Z"
+                                                fill="#F0F0F0" />
+                                            <path
+                                                d="M12.0007 8.78088L12.8055 10.6061L14.7885 10.3904L13.6102 12L14.7885 13.6095L12.8055 13.3939L12.0007 15.2191L11.1959 13.3939L9.21289 13.6095L10.3911 12L9.21289 10.3904L11.1959 10.6061L12.0007 8.78088Z"
+                                                fill="#0052B4" />
+                                        </g>
+                                        <defs>
+                                            <clipPath id="clip0_1046_3642">
+                                                <rect width="24" height="24" fill="white" />
+                                            </clipPath>
+                                        </defs>
+                                    </svg>  
+                                </h2>
+                                <select class="input-text" name="" id="">
+                                    <option value="India" selected>
+                                        India</option>
+                                    <option value="Japan">
+                                        Japan</option>
+                                    <option value="Finland">Finland</option>
+                                </select>
+                            </div>
                         </div>
                         <div class="input-box time-zone">
                             <h3>Timezone</h3>
                             <div class="input-text hard-label-input">
-                                <span class="hard-label">
-                                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <h2 class="hard-label">
+                                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                        xmlns="http://www.w3.org/2000/svg">
                                         <g clip-path="url(#clip0_755_6764)">
-                                        <path d="M9.99999 4.99996V9.99996L13.3333 11.6666M18.3333 9.99996C18.3333 14.6023 14.6024 18.3333 9.99999 18.3333C5.39762 18.3333 1.66666 14.6023 1.66666 9.99996C1.66666 5.39759 5.39762 1.66663 9.99999 1.66663C14.6024 1.66663 18.3333 5.39759 18.3333 9.99996Z" stroke="#667085" stroke-width="1.66667" stroke-linecap="round" stroke-linejoin="round"/>
+                                            <path
+                                                d="M9.99999 4.99996V9.99996L13.3333 11.6666M18.3333 9.99996C18.3333 14.6023 14.6024 18.3333 9.99999 18.3333C5.39762 18.3333 1.66666 14.6023 1.66666 9.99996C1.66666 5.39759 5.39762 1.66663 9.99999 1.66663C14.6024 1.66663 18.3333 5.39759 18.3333 9.99996Z"
+                                                stroke="#667085" stroke-width="1.66667" stroke-linecap="round"
+                                                stroke-linejoin="round" />
                                         </g>
                                         <defs>
-                                        <clipPath id="clip0_755_6764">
-                                        <rect width="20" height="20" fill="white"/>
-                                        </clipPath>
+                                            <clipPath id="clip0_755_6764">
+                                                <rect width="20" height="20" fill="white" />
+                                            </clipPath>
                                         </defs>
-                                        </svg>
-                                        <h2>PST</h2>
-                                </span>
+                                    </svg>
+                                    PST
+                                </h2>
                                 <select class="time-zone-select" name="" id="">
                                     <option value="8" selected>UTC-08:00</option>
                                     <option value="9" selected>UTC-09:00</option>
